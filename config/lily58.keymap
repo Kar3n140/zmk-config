@@ -36,8 +36,8 @@
 // | BTCLR | BT1 | BT2 |  BT3 |  BT4 |  BT5 |                   | K_PP |       |       | C_MUTE |  K_VOL_UP   | K_VOL_DN |
 // |  F1   |  F2 |  F3 |  F4  |  F5  |  F6  |                   |  INS |  HOME | PG_UP | N3   |  UP   |  N5   |
 // |  F7   |  F8 |  F9 |  F10 |  F11 |  F12 |                   |  DEL |  END  | PG_DN | LEFT |  DOWN | RIGHT |
-// |       |     |     |      |      |      |     |     |       | CAPS |  _    |  +    |  {   |   }   |  "|"  |
-//                     | K_PREV | K_NEXT  |      |     | |  4   |  3    |   2   |  1   |
+// |       |     |     |      |      |      |     |       |     | CAPS |  _    |  +    |  {   |   }   |  "|"  |
+//                     |  K_PREV  | K_NEXT  |      |     |       |     |      |       |       |
             bindings = <
 &bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3 &bt BT_SEL 4                 &K_PP    &trans    &trans    &kp C_MUTE    &kp K_VOL_UP   &kp K_VOL_DN
 &kp F1     &kp F2           &kp F3            &kp F4            &kp F5       &kp F6                       &kp INS  &kp HOME    &kp PG_UP     &kp N3    &kp UP   &kp N5
